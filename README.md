@@ -25,6 +25,5 @@
 <pre><code>php artisan migrate</code></pre>
 <p>Next, you should run the <code>passport:install</code> command. This command will create the encryption keys needed to generate secure access tokens. In addition, the command will create &quot;personal access&quot; and &quot;password grant&quot; clients which will be used to generate access tokens:</p>
 <pre><code>php artisan passport:install</code></pre>
-<p>After running this command, add the <code>Laravel\Passport\HasApiTokens</code> trait to your <code>App\User</code> model. This trait will provide a few helper methods to your model which allow you to inspect the authenticated user's token and scopes:</p>
-<pre><code>&lt;?php
+
 
